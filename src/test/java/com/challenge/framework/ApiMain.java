@@ -65,7 +65,7 @@ public class ApiMain {
 		DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH-mm-ss");
     	Date date = new Date();
     	String fecha = dateFormat.format(date);
-		String output = System.getProperty("user.dir")+"\\"+"Reportes\\Reporte - " + fecha;
+		String output = System.getProperty("user.dir")+"\\Reportes\\Reporte - " + fecha;
 		TestNG.getDefault().setOutputDirectory(output);
 		Path path = Paths.get(output);
 		System.out.println(output);

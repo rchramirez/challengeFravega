@@ -1,5 +1,10 @@
 package com.challenge.test;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
 import org.openqa.selenium.support.PageFactory;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
@@ -49,8 +54,22 @@ public class TestCaseFrontendClass extends TestBase{
 	@Test
 	public void C06_GuardarGrillaDeResultados() {
 		System.out.println("in C06_GuardarGrillaDeResultados");
-		String bookingDetailsFile = System.getProperty("user.dir")+"\\"+"ScreenShots\\FravegaDetails - " + CaptureScreenShot.getDateTimeStamp()+".png";
-		CaptureScreenShot.getScreenShot(BrowserFactory.getDriver(), bookingDetailsFile);
+		String output = System.getProperty("user.dir")+"\\Reportes\\CapturaDePantalla";
+		Path path = Paths.get(output);
+		 if (!Files.exists(path)) {
+	            try {
+					Files.createDirectory(path);
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+	            System.out.println("Se crea directorio de ejecucion");
+	        } else {
+	            
+	            System.out.println("Directorio de ejecucion ya existe");
+	        }
+		String detailsFile = output + "\\FravegaDetails - " + CaptureScreenShot.getDateTimeStamp()+".png";
+		CaptureScreenShot.getScreenShot(BrowserFactory.getDriver(), detailsFile);
 		AssertJUnit.assertTrue(fravegaPage.saveGridOfResults());
 	}	
 }
