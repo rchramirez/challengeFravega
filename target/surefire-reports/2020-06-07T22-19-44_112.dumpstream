@@ -1,0 +1,4 @@
+# Created at 2020-06-07T22:19:44.569
+Boot Manifest-JAR contains absolute paths in classpath 'D:\WORK\challengeFravega\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

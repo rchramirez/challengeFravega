@@ -1,13 +1,13 @@
 package com.challenge.test;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
 import org.openqa.selenium.support.PageFactory;
-import org.testng.AssertJUnit;
-import org.testng.annotations.Test;
 
 import com.challenge.framework.BrowserFactory;
 import com.challenge.framework.CaptureScreenShot;

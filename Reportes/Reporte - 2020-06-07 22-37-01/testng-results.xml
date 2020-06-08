@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Fravega Challenge" duration-ms="53593" started-at="2020-06-08T01:36:07Z" finished-at="2020-06-08T01:37:01Z">
+    <groups>
+    </groups>
+    <test name="Test Frontend" duration-ms="44457" started-at="2020-06-08T01:36:07Z" finished-at="2020-06-08T01:36:52Z">
+      <class name="com.challenge.test.TestCaseFrontendClass">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.challenge.test.TestCaseFrontendClass@59e84876]" name="beforeClass" is-config="true" duration-ms="1" started-at="2020-06-07T22:36:07Z" finished-at="2020-06-07T22:36:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethodClass()[pri:0, instance:com.challenge.test.TestCaseFrontendClass@59e84876]" name="beforeMethodClass" is-config="true" duration-ms="5819" started-at="2020-06-07T22:36:07Z" finished-at="2020-06-07T22:36:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodClass -->
+        <test-method status="PASS" signature="C01_GenerarClaseConMetodoDeTest()[pri:0, instance:com.challenge.test.TestCaseFrontendClass@59e84876]" name="C01_GenerarClaseConMetodoDeTest" duration-ms="2549" started-at="2020-06-07T22:36:13Z" finished-at="2020-06-07T22:36:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C01_GenerarClaseConMetodoDeTest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.challenge.test.TestCaseFrontendClass@59e84876]" name="close" is-config="true" duration-ms="1" started-at="2020-06-07T22:36:16Z" finished-at="2020-06-07T22:36:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="C02_IngresarALaHome()[pri:0, instance:com.challenge.test.TestCaseFrontendClass@59e84876]" name="C02_IngresarALaHome" duration-ms="0" started-at="2020-06-07T22:36:16Z" finished-at="2020-06-07T22:36:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C02_IngresarALaHome -->
+        <test-method status="PASS" signature="beforeMethodClass()[pri:0, instance:com.challenge.test.TestCaseFrontendClass@59e84876]" name="beforeMethodClass" is-config="true" duration-ms="0" started-at="2020-06-07T22:36:16Z" finished-at="2020-06-07T22:36:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodClass -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.challenge.test.TestCaseFrontendClass@59e84876]" name="close" is-config="true" duration-ms="1" started-at="2020-06-07T22:36:16Z" finished-at="2020-06-07T22:36:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="C03_BuscarHeladera()[pri:0, instance:com.challenge.test.TestCaseFrontendClass@59e84876]" name="C03_BuscarHeladera" duration-ms="10144" started-at="2020-06-07T22:36:16Z" finished-at="2020-06-07T22:36:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C03_BuscarHeladera -->
+        <test-method status="PASS" signature="beforeMethodClass()[pri:0, instance:com.challenge.test.TestCaseFrontendClass@59e84876]" name="beforeMethodClass" is-config="true" duration-ms="0" started-at="2020-06-07T22:36:16Z" finished-at="2020-06-07T22:36:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodClass -->
+        <test-method status="PASS" signature="C04_FiltrarPorHeladerasConFreezer()[pri:0, instance:com.challenge.test.TestCaseFrontendClass@59e84876]" name="C04_FiltrarPorHeladerasConFreezer" duration-ms="15289" started-at="2020-06-07T22:36:26Z" finished-at="2020-06-07T22:36:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C04_FiltrarPorHeladerasConFreezer -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.challenge.test.TestCaseFrontendClass@59e84876]" name="close" is-config="true" duration-ms="0" started-at="2020-06-07T22:36:26Z" finished-at="2020-06-07T22:36:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="beforeMethodClass()[pri:0, instance:com.challenge.test.TestCaseFrontendClass@59e84876]" name="beforeMethodClass" is-config="true" duration-ms="0" started-at="2020-06-07T22:36:26Z" finished-at="2020-06-07T22:36:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodClass -->
+        <test-method status="PASS" signature="beforeMethodClass()[pri:0, instance:com.challenge.test.TestCaseFrontendClass@59e84876]" name="beforeMethodClass" is-config="true" duration-ms="0" started-at="2020-06-07T22:36:41Z" finished-at="2020-06-07T22:36:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodClass -->
+        <test-method status="PASS" signature="C05_FiltrarPorSamsung()[pri:0, instance:com.challenge.test.TestCaseFrontendClass@59e84876]" name="C05_FiltrarPorSamsung" duration-ms="5157" started-at="2020-06-07T22:36:41Z" finished-at="2020-06-07T22:36:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C05_FiltrarPorSamsung -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.challenge.test.TestCaseFrontendClass@59e84876]" name="close" is-config="true" duration-ms="0" started-at="2020-06-07T22:36:41Z" finished-at="2020-06-07T22:36:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.challenge.test.TestCaseFrontendClass@59e84876]" name="close" is-config="true" duration-ms="0" started-at="2020-06-07T22:36:46Z" finished-at="2020-06-07T22:36:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="beforeMethodClass()[pri:0, instance:com.challenge.test.TestCaseFrontendClass@59e84876]" name="beforeMethodClass" is-config="true" duration-ms="0" started-at="2020-06-07T22:36:46Z" finished-at="2020-06-07T22:36:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodClass -->
+        <test-method status="PASS" signature="C06_GuardarGrillaDeResultados()[pri:0, instance:com.challenge.test.TestCaseFrontendClass@59e84876]" name="C06_GuardarGrillaDeResultados" duration-ms="5492" started-at="2020-06-07T22:36:46Z" finished-at="2020-06-07T22:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C06_GuardarGrillaDeResultados -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.challenge.test.TestCaseFrontendClass@59e84876]" name="close" is-config="true" duration-ms="0" started-at="2020-06-07T22:36:52Z" finished-at="2020-06-07T22:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.challenge.test.TestCaseFrontendClass@59e84876]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-06-07T22:36:52Z" finished-at="2020-06-07T22:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.challenge.test.TestCaseFrontendClass -->
+    </test> <!-- Test Frontend -->
+    <test name="Test Backend" duration-ms="9128" started-at="2020-06-08T01:36:52Z" finished-at="2020-06-08T01:37:01Z">
+      <class name="com.challenge.test.TestCaseFrontendClass">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.challenge.test.TestCaseFrontendClass@59e84876]" name="beforeSuite" is-config="true" duration-ms="5" started-at="2020-06-07T22:36:07Z" finished-at="2020-06-07T22:36:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.challenge.test.TestCaseFrontendClass@59e84876]" name="afterSuite" is-config="true" duration-ms="608" started-at="2020-06-07T22:37:01Z" finished-at="2020-06-07T22:37:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.challenge.test.TestCaseFrontendClass -->
+      <class name="com.challenge.test.TestCaseBackendClass">
+        <test-method status="PASS" signature="C01_ObtenerListaCerveceriaQueContengaTextoLagunitas()[pri:0, instance:com.challenge.test.TestCaseBackendClass@735b5592]" name="C01_ObtenerListaCerveceriaQueContengaTextoLagunitas" duration-ms="3766" started-at="2020-06-07T22:36:52Z" finished-at="2020-06-07T22:36:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C01_ObtenerListaCerveceriaQueContengaTextoLagunitas -->
+        <test-method status="PASS" signature="C02_ObtenerListaConValorLagunitasBrewingCo()[pri:0, instance:com.challenge.test.TestCaseBackendClass@735b5592]" name="C02_ObtenerListaConValorLagunitasBrewingCo" duration-ms="1647" started-at="2020-06-07T22:36:55Z" finished-at="2020-06-07T22:36:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C02_ObtenerListaConValorLagunitasBrewingCo -->
+        <test-method status="PASS" signature="C03_ObtenerDetalleDeCadaCerveceria()[pri:0, instance:com.challenge.test.TestCaseBackendClass@735b5592]" name="C03_ObtenerDetalleDeCadaCerveceria" duration-ms="2634" started-at="2020-06-07T22:36:57Z" finished-at="2020-06-07T22:37:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C03_ObtenerDetalleDeCadaCerveceria -->
+        <test-method status="PASS" signature="C04_AssertarResultado()[pri:0, instance:com.challenge.test.TestCaseBackendClass@735b5592]" name="C04_AssertarResultado" duration-ms="1076" started-at="2020-06-07T22:37:00Z" finished-at="2020-06-07T22:37:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C04_AssertarResultado -->
+        <test-method status="PASS" signature="C05_CrearReporteConResultados()[pri:0, instance:com.challenge.test.TestCaseBackendClass@735b5592]" name="C05_CrearReporteConResultados" duration-ms="2" started-at="2020-06-07T22:37:01Z" finished-at="2020-06-07T22:37:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C05_CrearReporteConResultados -->
+      </class> <!-- com.challenge.test.TestCaseBackendClass -->
+    </test> <!-- Test Backend -->
+  </suite> <!-- Fravega Challenge -->
+</testng-results>

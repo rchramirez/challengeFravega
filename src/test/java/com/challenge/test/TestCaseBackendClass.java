@@ -1,10 +1,8 @@
 package com.challenge.test;
 
-import java.util.List;
-
-import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
-
+import org.testng.AssertJUnit;
+import java.util.List;
 import com.challenge.framework.ApiMain;
 
 import io.restassured.response.Response;

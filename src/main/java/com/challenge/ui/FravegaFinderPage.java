@@ -40,11 +40,11 @@ public class FravegaFinderPage {
 		WebElement breadcrumb;
 	
 	public void enterTheHome() {
-		driver.get("https://www.fravega.com/");
+//		driver.get("https://www.fravega.com/");
 	}
 	
 	public void searchHeladera(String fridge) {
-		sleep(2);
+		sleep(5);
 		searchBox.clear();
 		searchBox.sendKeys(fridge);
 		searchBox.submit();
